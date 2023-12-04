@@ -1,0 +1,76 @@
+/* Common Css Start Here */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,div,span,li,a,p{
+    margin: 0;
+    padding: 0;
+}
+/* Common Css End Here */
+
+/* Part Css Start Here */
+#main .main_part{
+    background: #00d5ff;
+    margin: 300px 0;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#main .main_part h3{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#main .main_part .input_link input{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 75px;
+    padding: 20px;
+    background: #b1e9f4;
+    border: none;
+    color: #fff;
+    color: #000;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+#main .main_part .input_link .error{
+    color: red;
+    text-align: center;
+    font-weight: 900;
+}
+
+#main .main_part .input_link .grade{
+    color: green;
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#main .main_part .input_link .btn{
+    background: #fff;
+    color: #000;
+    padding: 15px 30px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    transition: all linear 0.3s;
+}
+
+#main .main_part .input_link .btn:hover{
+    background: #000;
+    color: #fff;
+}
+/* Part Css End Here */
+
+/* Common Css Start Here */
+/* Common Css End Here */
+
